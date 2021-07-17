@@ -53,9 +53,9 @@ now lets walkthrough each port and see what we can do (separately and combined):
  ---
  msf > use auxiliary/scanner/ssh/ssh_login
  
-msf auxiliary(ssh_login) > set RHOSTS 10.0.0.27
+msf auxiliary(ssh_login) > set RHOSTS 192.168.1.104
  
-RHOSTS => 192.168.1.3
+RHOSTS => 192.168.1.104
  
 msf auxiliary(ssh_login) > set USERPASS_FILE /usr/share/metasploit-framework/data/wordlists/root_userpass.txt
  
